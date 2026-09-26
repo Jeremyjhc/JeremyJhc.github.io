@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Neighbours learning bicycle repair</title>
+  <desc id="description">Three people stand around a work table while repairing a bicycle wheel.</desc>
+  <rect width="720" height="360" fill="#e8f3ef"/>
+  <rect x="70" y="246" width="580" height="24" rx="6" fill="#6f4e37"/>
+  <rect x="110" y="270" width="18" height="65" fill="#6f4e37"/>
+  <rect x="592" y="270" width="18" height="65" fill="#6f4e37"/>
+  <circle cx="360" cy="210" r="72" fill="none" stroke="#315f72" stroke-width="8"/>
+  <circle cx="360" cy="210" r="8" fill="#315f72"/>
+  <g stroke="#315f72" stroke-width="3">
+    <path d="M360 138v144M288 210h144M309 159l102 102M309 261l102-102"/>
+  </g>
+  <g>
+    <circle cx="190" cy="98" r="31" fill="#875b3b"/>
+    <path d="M130 236v-80c0-35 24-55 60-55s60 20 60 55v80" fill="#e69f37"/>
+    <path d="M222 170l80 40" stroke="#875b3b" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="530" cy="98" r="31" fill="#5d3b2e"/>
+    <path d="M470 236v-80c0-35 24-55 60-55s60 20 60 55v80" fill="#5b7db1"/>
+    <path d="M498 170l-80 40" stroke="#5d3b2e" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="360" cy="76" r="28" fill="#b97850"/>
+    <path d="M310 160v-42c0-27 20-43 50-43s50 16 50 43v42" fill="#548f65"/>
+  </g>
+  <rect x="0" y="335" width="720" height="25" fill="#75a77e"/>
+</svg>

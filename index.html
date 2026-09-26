@@ -1,19 +1,156 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-CA">
 <head>
-    <title>Jeremy | GIS Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Community Skills Fair</title>
 </head>
-
 <body>
+    <header>
+        <p>City of Waterloo presents</p>
+        <h1>Community Skills Fair</h1>
+        <p>A free day of practical learning, friendly demonstrations, and neighbour-to-neighbour sharing.</p>
 
-    <h1>Jeremy's GIS Portfolio</h1>
-    <h2>My First GIS Website</h2>
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#about">About the fair</a></li>
+                <li><a href="#program">Program</a></li>
+                <li><a href="#registration">Register</a></li>
+                <li><a href="#resources">Community resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>Geography | GIS | Spatial Analysis</p>
+    <main>
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About the fair</h2>
+            <p><strong>Saturday, October 17, 2026, from 9:00 a.m. to 4:00 p.m.</strong> at the Waterloo Memorial Recreation Complex. Admission is free, and visitors may attend one session or stay for the whole day.</p>
 
-    <h2>Welcome</h2>
+            <h3>What can visitors learn?</h3>
+            <p>Try useful skills for everyday life, including bicycle care, household repairs, digital safety, community gardening, and emergency preparedness. Each session is designed around a practical demonstration, with time to ask questions and <em>learn by doing</em>.</p>
 
-    <p>This is my first personal website.</p>
+            <h3>Who should attend?</h3>
+            <p>The fair welcomes Waterloo residents of all experience levels, from curious beginners to neighbours ready to share what they know. Families are welcome; visitors under 12 should participate with an adult. No previous training is required—just bring your <i>curiosity</i>.</p>
 
+            <figure>
+                <img src="images/neighbours-learning.svg" alt="Three neighbours learning to repair a bicycle together at a work table" width="720" height="360">
+                <figcaption>Hands-on demonstrations make it easier to learn a new skill alongside neighbours. Original illustration created for the Community Skills Fair.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/community-garden.svg" alt="A gardener showing an adult and child how to plant a seedling in a raised bed" width="720" height="360">
+                <figcaption>All ages can discover simple ways to grow food and care for shared spaces. Original illustration created for the Community Skills Fair.</figcaption>
+            </figure>
+        </section>
+
+        <section id="program" aria-labelledby="program-heading">
+            <h2 id="program-heading">Program schedule</h2>
+            <p>Sessions are drop-in unless otherwise noted. A quiet seating area and refill station will be available throughout the day.</p>
+            <table>
+                <caption>Community Skills Fair sessions for Saturday, October 17, 2026</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Time</th>
+                        <th scope="col">Session</th>
+                        <th scope="col">Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><time datetime="2026-10-17T09:00">9:00 a.m.</time></td>
+                        <td>Welcome and community skill swap</td>
+                        <td>Community Pavilion</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2026-10-17T09:45">9:45 a.m.</time></td>
+                        <td>Bicycle check-up basics</td>
+                        <td>Workshop Bay</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2026-10-17T11:00">11:00 a.m.</time></td>
+                        <td>Safer passwords and scam spotting</td>
+                        <td>Room 201</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2026-10-17T12:30">12:30 p.m.</time></td>
+                        <td>Grow herbs in small spaces</td>
+                        <td>Garden Terrace</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2026-10-17T01:45">1:45 p.m.</time></td>
+                        <td>Patch, fasten, and fix at home</td>
+                        <td>Workshop Bay</td>
+                    </tr>
+                    <tr>
+                        <td><time datetime="2026-10-17T03:00">3:00 p.m.</time></td>
+                        <td>Build a household emergency kit</td>
+                        <td>Room 201</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="registration" aria-labelledby="registration-heading">
+            <h2 id="registration-heading">Register your interest</h2>
+            <p>Registration helps us prepare enough materials. You may still attend if you do not register.</p>
+            <form action="index.html" method="get">
+                <p>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </p>
+                <p>
+                    <label for="email">Email address</label><br>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </p>
+
+                <fieldset>
+                    <legend>Attendance preference</legend>
+                    <p><label><input type="radio" name="attendance" value="full-day" required> Full day</label></p>
+                    <p><label><input type="radio" name="attendance" value="morning"> Morning only</label></p>
+                    <p><label><input type="radio" name="attendance" value="afternoon"> Afternoon only</label></p>
+                </fieldset>
+
+                <p>
+                    <label for="topic">One topic of interest</label><br>
+                    <select id="topic" name="topic" required>
+                        <option value="">Choose a topic</option>
+                        <option value="bicycle-care">Bicycle care</option>
+                        <option value="digital-safety">Digital safety</option>
+                        <option value="gardening">Small-space gardening</option>
+                        <option value="home-repair">Household repairs</option>
+                        <option value="preparedness">Emergency preparedness</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="comments">Optional comments or accessibility requests</label><br>
+                    <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
+                </p>
+                <button type="submit">Register my interest</button>
+            </form>
+        </section>
+
+        <section id="resources" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">Keep learning locally</h2>
+            <p>Explore the <a href="https://www.waterloo.ca/en/things-to-do/community-programs.aspx">City of Waterloo community programs</a> for more recreation and learning opportunities.</p>
+            <p>Find workshops, technology help, and reading resources through the <a href="https://www.wpl.ca/">Waterloo Public Library</a>.</p>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact and location</h2>
+            <p>For event or accessibility questions, call <a href="tel:+15198841550">519-884-1550</a> or email <a href="mailto:skillsfair@waterloo.ca">skillsfair@waterloo.ca</a>.</p>
+            <address>
+                Waterloo Memorial Recreation Complex<br>
+                101 Father David Bauer Drive<br>
+                Waterloo, Ontario N2L 0B4<br>
+                Canada
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2026 City of Waterloo. Community Skills Fair information.</small></p>
+        <p><a href="#about">Return to the top of the page</a></p>
+    </footer>
 </body>
 </html>
