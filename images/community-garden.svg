@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title description">
+  <title id="title">Learning in a community garden</title>
+  <desc id="description">A gardener shows an adult and child how to plant a green seedling.</desc>
+  <rect width="720" height="360" fill="#dff1fa"/>
+  <circle cx="630" cy="68" r="38" fill="#f5cb5c"/>
+  <path d="M0 250Q130 190 280 250T560 240T720 230V360H0Z" fill="#86b875"/>
+  <rect x="180" y="252" width="360" height="76" fill="#9a623f"/>
+  <rect x="195" y="265" width="330" height="48" fill="#513d31"/>
+  <path d="M360 272v-60M360 235q-48-6-50-42 48-4 50 42M360 250q42-5 47-35-43-7-47 35" fill="#5b9b55" stroke="#39733d" stroke-width="5"/>
+  <g>
+    <circle cx="120" cy="132" r="33" fill="#75472e"/>
+    <path d="M65 260v-75c0-36 22-57 55-57s55 21 55 57v75" fill="#5b7db1"/>
+    <path d="M160 190l118 62" stroke="#75472e" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="600" cy="174" r="27" fill="#a66b45"/>
+    <path d="M555 272v-55c0-31 18-48 45-48s45 17 45 48v55" fill="#ed9b40"/>
+    <path d="M570 215l-80 48" stroke="#a66b45" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="466" cy="120" r="31" fill="#5d3b2e"/>
+    <path d="M416 245v-76c0-34 20-54 50-54s50 20 50 54v76" fill="#7d5aa6"/>
+    <path d="M430 178l-48 67" stroke="#5d3b2e" stroke-width="17" stroke-linecap="round"/>
+  </g>
+</svg>
